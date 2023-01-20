@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@media (max-width: 767px) {
+    nav {
+        overflow: scroll;
+    }
+
+    #pickup {
+        flex-direction: column;
+        padding-top: 140px;
+    }
+
+    #pickup article {
+        width: 100%;
+    }
+
+    .readmore {
+        margin-bottom: 30px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 60px;
+    }
+
+    footer .content {
+        flex-direction: column;
+    }
+
+    #about, #menu, #twitter {
+        width: 100%;
+    }
+
+    #menu, #twitter {
+        margin-top: 50px;
+    }
+    
+    .copy {
+        margin-top: 90px;
+    }
+
+}
